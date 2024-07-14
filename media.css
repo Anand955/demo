@@ -1,0 +1,256 @@
+@media only screen and (max-width:1300px) {
+    div.work_card {
+        background-image: url(./img/border-rounded.png);
+        background-repeat: no-repeat;
+        background-size: 75% 80%;
+        background-position: center;
+        text-align: center;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    div.ractangle_set {
+        background-image: unset;
+    }
+
+    div.Technologies_section .Technologies-box {
+        width: 31%;
+        margin: 0px auto 20px;
+
+    }
+
+    div.Technologies_section {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width:576px) and (max-width:991px) {
+    div.card_block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Advantages .card {
+        border-left: 2px solid #BED2E7;
+    }
+
+    div.stone_section::after {
+        width: 76px;
+        height: 73px;
+
+    }
+
+    div.Technologies_section {
+        flex-wrap: wrap;
+
+    }
+
+    div.stone_section::before {
+        bottom: 22px;
+        left: 9px;
+        width: 79px;
+        height: 79px;
+        top: unset;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    div.work_card {
+        display: none;
+    }
+    div.ractangle_set {
+        padding:20px;
+    }
+
+    div.card_midium_screen {
+        display: block;
+    }
+    ul.navbar-nav li{
+        justify-content: start;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    div.Technologies_section .Technologies-box {
+        width: 44%;
+    }
+    div.news_block{
+        padding:30px;
+    }
+    div.Set_block{
+        width: 47%;
+    }
+    div.footer-item{
+        display: unset;
+    }
+    div.footer_pages{
+        gap: 0;
+        display: unset;
+    }   
+    div.footer_pages ul{
+        margin:10px 0;
+    }
+    div.footer_icon ul{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    div.Technologies_title h2{
+        font-size: 20px;
+        line-height: 38px;
+    }
+    ul.navbar-nav li{
+    justify-content: unset;
+
+      }
+    ul.navbar-nav{
+        gap: 0;
+    }
+    div.all_right_reserve p{
+        font-size: 13px;
+    }
+   
+    div.Technologies_section .Technologies-box {
+        width: 100%;
+    }
+    div.Set_block{
+        width: 100%;
+    }
+    div.footer_section{
+        padding:24px;
+    }
+
+    div.Common-title h2 {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    div.team_work_flow h2 {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    div.teamwork_para p {
+        font-size: 11px;
+        line-height: 24px;
+    }
+
+    div.Common-Sub-title h5 {
+        font-size: 14px;
+    }
+
+    div.Common-para p {
+        font-size: 11px;
+        line-height: 24px;
+    }
+
+    div.Discover_Section h2 {
+        font-size: 20px;
+        line-height: 38px;
+
+    }
+
+    div.Discover_Section p {
+        font-size: 11px;
+        line-height: 24px;
+    }
+
+    div.child3::after {
+
+        bottom: 0rem;
+        left: 14rem;
+    }
+
+    div.child1::after {
+        right: -5px;
+    }
+
+    div.child2::after {
+        right: -9px;
+    }
+
+    div.offer_section h1 {
+        font-size: 20px;
+        line-height: 38px
+    }
+
+    div.offer_section p,
+    div.Utilizing_Product p {
+        font-size: 11px;
+        line-height: 24px;
+    }
+
+    div.Tranform_ideas h6 {
+
+        font-size: 15px;
+
+    }
+
+    div.Utilizing_Product h2 {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .Utilizing_Product h2 {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 55px;
+    }
+
+    div.stone_section::after {
+        width: 59px;
+        height: 54px;
+    }
+
+    div.stone_section::before {
+        bottom: 9px;
+        left: 9px;
+        width: 46px;
+        height: 45px;
+        top: unset;
+    }
+
+    div.card_block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Advantages .card {
+        border-left: 2px solid #BED2E7;
+    }
+
+    div.choose_metizsoft h2 {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    div.choose_metizsoft p {
+        font-size: 11px;
+    }
+
+    div.choose_steps {
+        font-size: 13px;
+        display: inline-flex;
+    }
+
+    div.choose_steps::before {
+        padding: 2px 6px;
+        font-size: 12px;
+        height: 21px;
+    }
+
+    div.why_cooose_us h2 {
+        font-size: 20px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+
+}
